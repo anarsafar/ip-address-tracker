@@ -6,7 +6,7 @@ class Container extends Component {
   state = {
     inputValue: "",
     responseIP: [],
-    apiKey: "at_JSnbdr0agts4HUYks02wgJczI5eiu",
+    apiKey: "",
     isLoading: false,
   };
 
