@@ -1,0 +1,48 @@
+@media screen and (max-width:1030px) {
+    .info {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .info {
+        width: 600px;
+        padding: 10px;
+        div {
+            width: auto;
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    header {
+        .error {
+            width: 300px;
+        }
+        form {
+            width: auto;
+            margin: 0 1rem;
+            input {
+                width: 85%;
+            }
+            button {
+                width: 15%;
+            }
+        }
+    }
+    .info {
+        flex-direction: column;
+        width: auto;
+        margin: 0 1rem;
+        div {
+            width: auto;
+            p,
+            h3 {
+                margin: 10px;
+            }
+        }
+        .line {
+            display: none;
+        }
+    }
+}

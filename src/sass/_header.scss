@@ -1,0 +1,59 @@
+header {
+    background: url(../images/pattern-bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 1px;
+    height: 220px;
+    h1 {
+        color: #fff;
+        font-weight: 500;
+    }
+    form {
+        width: 480px;
+        margin: 0 auto;
+        input {
+            width: 90%;
+            border: none;
+            padding: 15px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            &:focus {
+                outline: none;
+            }
+            &::placeholder {
+                color: $dark-gray;
+                font-size: 15px;
+                font-family: 'Rubik', sans-serif;
+            }
+        }
+        button {
+            width: 10%;
+            border: none;
+            padding: 15px;
+            background: #000;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            transition: 0.4s;
+            img {
+                width: 10px;
+            }
+            cursor: pointer;
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                background: $very-dark-gray;
+            }
+        }
+    }
+    .error {
+        color: #D8000C;
+        background-color: #FFBABA;
+        padding: 10px;
+        width: 440px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 170%);
+    }
+}

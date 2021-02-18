@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(../images/pattern-bg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 1px;
+  height: 37vh;
+}
+
+header h1 {
+  color: #fff;
+  font-weight: 500;
+}
+
+header form {
+  width: 480px;
+  margin: 0 auto;
+}
+
+header form input {
+  width: 90%;
+  border: none;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+header form input:focus {
+  outline: none;
+}
+
+header form input::placeholder {
+  color: #969696;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+}
+
+header form button {
+  width: 10%;
+  border: none;
+  padding: 15px;
+  background: #000;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+header form button img {
+  width: 10px;
+}
+
+header form button:focus {
+  outline: none;
+}
+
+header form button:hover {
+  background: #2b2b2b;
+}
+
+.info {
+  border-radius: 10px;
+  background: #fff;
+  width: 1000px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  top: 0;
+  left: 0;
+  transform: translate(0, 4vh);
+  position: relative;
+  z-index: 999;
+  justify-content: space-between;
+  box-shadow: 0px 3px 32px 0px rgba(0, 0, 0, 0.27);
+}
+
+.info div {
+  width: 200px;
+}
+
+.info div h3 {
+  color: #2b2b2b;
+}
+
+.info div p {
+  color: #969696;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.info .line {
+  border-top: 1px solid #969696;
+  position: relative;
+  width: 90px;
+  transform: rotate(90deg);
+  position: relative;
+  right: 3rem;
+}
+/*# sourceMappingURL=App.css.map */
